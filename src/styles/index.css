@@ -42,3 +42,15 @@ html, body{
     margin-top: 30px;
     background-color: #ece67c;
 }
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+#outlined-basic{
+
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+    margin-bottom: 10px;
+}

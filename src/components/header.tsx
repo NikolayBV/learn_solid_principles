@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import {Button} from "@mui/material";
 
 
 const Header = () => {
@@ -7,10 +8,8 @@ const Header = () => {
         <div className='header'>
             <h1 className='heading'>Users list</h1>
             <div className='headerMenu'>
-                <button>Create user</button>
-                <button
-                    className='postBtnEdit'
-                ><Link to={`/about`}>About</Link></button>
+                <Button>Create user</Button>
+                <Button className='postBtnEdit'>About</Button>
             </div>
         </div>
     );
